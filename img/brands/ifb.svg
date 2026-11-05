@@ -1,20 +1,3 @@
-<svg width="600" height="260" viewBox="0 15 580 240" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="ifbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FF2E36"/>
-      <stop offset="100%" stop-color="#B80C14"/>
-    </linearGradient>
-    <filter id="ifbShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#ED1C24" flood-opacity="0.25"/>
-    </filter>
-  </defs>
-  <!-- Big Circular Emblem -->
-  <circle cx="125" cy="135" r="105" fill="url(#ifbGrad)" filter="url(#ifbShadow)"/>
-  <circle cx="125" cy="135" r="96" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="3"/>
-  <text x="125" y="153" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="54" fill="#ffffff" text-anchor="middle" letter-spacing="3">IFB</text>
-  <!-- Big Wordmark -->
-  <text x="252" y="132" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="64" fill="#ED1C24" letter-spacing="4">IFB</text>
-  <text x="382" y="132" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="34" fill="#1E293B" letter-spacing="3">APPLIANCES</text>
-  <line x1="254" y1="152" x2="570" y2="152" stroke="#ED1C24" stroke-width="4" stroke-linecap="round"/>
-  <text x="256" y="188" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="22" fill="#334155" letter-spacing="5">SERVICE CENTER</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 160" width="290" height="160">
+  <image href="data:image/png;base64,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" width="290" height="160"/>
 </svg>
