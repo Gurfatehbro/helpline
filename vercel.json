@@ -1,0 +1,20 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/lgservice", "destination": "/lgservice.html" },
+    { "source": "/samsungservice", "destination": "/samsungservice.html" },
+    { "source": "/boschservice", "destination": "/boschservice.html" },
+    { "source": "/ifbservice", "destination": "/ifbservice.html" },
+    { "source": "/godrejservice", "destination": "/godrejservice.html" },
+    { "source": "/hitachiservice", "destination": "/hitachiservice.html" },
+    { "source": "/panasonicservice", "destination": "/panasonicservice.html" },
+    { "source": "/haierservice", "destination": "/haierservice.html" },
+    { "source": "/siemensservice", "destination": "/siemensservice.html" },
+    { "source": "/contact-us", "destination": "/contact-us.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/refund-policy", "destination": "/refund-policy.html" },
+    { "source": "/cancellation-policy", "destination": "/cancellation-policy.html" },
+    { "source": "/terms-and-conditions", "destination": "/terms-and-conditions.html" }
+  ]
+}
