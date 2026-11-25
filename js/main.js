@@ -127,5 +127,28 @@
 
    
 
+    // Automatic Brand Session Tracking
+    try {
+        var pagePath = window.location.pathname.toLowerCase();
+        var brandsList = {
+            'samsung': 'Samsung',
+            'lg': 'LG',
+            'whirlpool': 'Whirlpool',
+            'bosch': 'Bosch',
+            'ifb': 'IFB',
+            'hitachi': 'Hitachi',
+            'panasonic': 'Panasonic',
+            'haier': 'Haier',
+            'siemens': 'Siemens',
+            'godrej': 'Godrej'
+        };
+        for (var b in brandsList) {
+            if (pagePath.indexOf(b) !== -1) {
+                sessionStorage.setItem('last_visited_brand', brandsList[b]);
+                break;
+            }
+        }
+    } catch (e) {}
+
 })(jQuery);
 
